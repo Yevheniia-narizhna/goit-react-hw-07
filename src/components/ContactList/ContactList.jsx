@@ -3,6 +3,7 @@ import Contact from "../Contact/Contact";
 import { useDispatch, useSelector } from "react-redux";
 import { deleteContact, selectContact } from "../../redux/contactsSlice";
 import { selectFilter } from "../../redux/filtersSlice";
+import { deleteContact } from "../../redux/contactsOps";
 
 export default function ContactList() {
   const contacts = useSelector(selectContact);
