@@ -4,7 +4,7 @@ import SearchBox from "./components/SearchBox/SearchBox";
 import ContactList from "./components/ContactList/ContactList";
 import "./App.css";
 import { useDispatch, useSelector } from "react-redux";
-import { fetchContactss } from "./redux/contactsOps";
+import { fetchContacts } from "./redux/contactsOps";
 import { selectError, selectLoading } from "./redux/contactsSlice";
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch(fetchContactss());
+    dispatch(fetchContacts());
   }, [dispatch]);
   return (
     <>

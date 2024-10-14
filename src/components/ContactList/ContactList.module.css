@@ -1,6 +1,6 @@
 .contactlist {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   border-radius: 12px;
   background-color: #bdbaba;
   margin: 0 auto;

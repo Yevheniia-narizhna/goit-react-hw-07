@@ -1,5 +1,5 @@
 import axios from "axios";
-import { fetchContacts, deleteContact, addContact } from "./contactsSlice";
+// import { fetchContacts, deleteContact, addContact } from "./contactsSlice";
 import { createAsyncThunk } from "@reduxjs/toolkit";
 
 const BASE_URL = "https://670be5c87e5a228ec1cefa11.mockapi.io/contacts";
